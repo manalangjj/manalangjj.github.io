@@ -1,1 +1,0 @@
-# manalangjj.github.io
