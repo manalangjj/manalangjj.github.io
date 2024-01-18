@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>My HTML Profile</title>
 </head>
 <script src="plugins/jquery-3.7.1.min.js"></script>
 <script src="myscript.js"></script>
 <body>
     <header>
-        <h2>Manalang, Jeremy</h2>
+        <h2>manalang, jeremy</h2>
     </header>
 
     <div class="container">
@@ -22,10 +23,10 @@
     </div>
 
     <div class="mainContent">
-        <div class="content">
+        <div class="content" style="margin-bottom: 10%;">
             <h1 style="text-align: center">ABOUT ME</h1>
 
-            <img src="pictures/profile.jpg" style="width:300px;float:left" alt="Profile Picture">
+            <img src="pictures/profile.jpg" class="bordered" style="width:300px;float:left" alt="Profile Picture">
 
             <div class="information">
                 <h2 style="padding-left:350px;">NAME</h2>
@@ -49,50 +50,7 @@
             <h2 style="padding-left:350px;">NU Fairview</h2>
         </div>
 
-        <div class="content">
-            <h1 style="text-align: center">HOBBIES</h1>
-
-            <div style="margin-bottom: 20%;">
-                <img src="pictures/programming.jpg" style="width:600px; transform:rotate(-5deg); float:left" alt="Programming">
-
-                <div style="margin-left: 20%;">
-                    <h2 style="background-color:#ffaf1b; color:#210002; padding-left: 25%; font-size: 50px;">Programming</h2>
-                </div>
-
-                <br>
-
-                <h4 style="margin-left: 40%; font-size: 30px; font-weight:normal;">My passion for programming has sparked since the day I learned to use the computer. 
-                    This has paved the way for my discovery on the world of game development.</h4>
-            </div>
-
-            <div style="margin-bottom: 20%;">
-                <img src="pictures/piano.jpg" style="width:650px; transform:rotate(5deg); float:right" alt="Piano">
-
-                <div style="margin-right: 20%;">
-                    <h2 style="background-color:#ffaf1b; color:#210002; text-align: right; padding-right: 30%; font-size: 50px;">Playing the Piano</h2>
-                </div>
-
-                <br>
-
-                <h4 style="margin-right: 43%; font-size: 30px; text-align: left; font-weight:normal;">Music is an art itself that expresses ideas and emotions. In order to immerse myself, 
-                    I decided to learn in playing the piano. This gives inspiration and motivation for achieving one's goals.</h4>
-            </div>
-
-            <div style="margin-bottom: 15%;">
-                <img src="pictures/chess.jpeg" style="width:600px; transform:rotate(-5deg); float:left" alt="Chess">
-
-                <div style="margin-left: 20%;">
-                    <h2 style="background-color:#ffaf1b; color:#210002; padding-left: 25%; font-size: 50px;">Learning to Play Chess</h2>
-                </div>
-
-                <br>
-
-                <h4 style="margin-left: 40%; font-size: 30px; font-weight:normal;">I was attracted to how 'chess' is being played as a board game, 
-                    from its core mechanics to gameplay which can be played for passing time.</h4>
-            </div>
-        </div>
-
-        <div class="content">
+        <div class="content" style="margin-bottom: 10%;">
 
             <h1 style="text-align: center">CONTACT INFORMATION</h1>
 
@@ -105,11 +63,136 @@
                 <h2>PHONE NUMBER</h2>
             </div>
             <h2>09123456789</h2>
+        </div>
 
+        <div class="content" style="margin-bottom: 10%;">
+            <h1 style="text-align: center">HOBBIES/SKILLS</h1>
+
+            <div style="margin-bottom: 20%;">
+                <img src="pictures/programming.jpg" class="bordered" style="width:600px; transform:rotate(-5deg); float:left" alt="Programming">
+
+                <div style="margin-left: 20%;">
+                    <h2 style="background-color:#ffaf1b; color:#210002; padding-left: 25%; font-size: 50px;">Programming</h2>
+                </div>
+
+                <br>
+
+                <h4 style="margin-left: 40%; font-size: 30px; font-weight:normal;">My passion for programming has sparked since the day I learned to use the computer. 
+                    This has paved the way for my discovery on the world of game development.</h4>
+            </div>
+
+            <div style="margin-bottom: 20%;">
+                <img src="pictures/piano.jpg" class="bordered" style="width:650px; transform:rotate(5deg); float:right" alt="Piano">
+
+                <div style="margin-right: 20%;">
+                    <h2 style="background-color:#ffaf1b; color:#210002; text-align: right; padding-right: 30%; font-size: 50px;">Playing the Piano</h2>
+                </div>
+
+                <br>
+
+                <h4 style="margin-right: 43%; font-size: 30px; text-align: left; font-weight:normal;">Music is an art itself that expresses ideas and emotions. In order to immerse myself, 
+                    I decided to learn in playing the piano. This gives inspiration and motivation for achieving one's goals.</h4>
+            </div>
+
+            <div style="margin-bottom: 15%;">
+                <img src="pictures/chess.jpeg" class="bordered" style="width:600px; transform:rotate(-5deg); float:left" alt="Chess">
+
+                <div style="margin-left: 20%;">
+                    <h2 style="background-color:#ffaf1b; color:#210002; padding-left: 25%; font-size: 50px;">Learning to Play Chess</h2>
+                </div>
+
+                <br>
+
+                <h4 style="margin-left: 40%; font-size: 30px; font-weight:normal;">I was attracted to how 'chess' is being played as a board game, 
+                    from its core mechanics to gameplay which can be played for passing time.</h4>
+            </div>
+        </div>
+
+        <div class="content" style="margin-bottom: 30px;">
+            <h1 style="text-align: center">WORKS</h1>
+            
+            <div style="margin-bottom: 5%;">
+                <img src="pictures/debugbydaylight.png" class="bordered" style="width:650px; transform:rotate(5deg); float:right" alt="Piano">
+
+                <div style="margin-right: 20%;">
+                    <h2 style="background-color:#ffaf1b; color:#210002; text-align: right; padding-right: 30%; font-size: 50px;">Debug by Daylight</h2>
+                </div>
+
+                <br>
+
+                <h4 style="margin-right: 43%; font-size: 30px; text-align: left; font-weight:normal;">As part of our course requirement, me and my friends made a horror game focusing
+                    on solving Python programming codes.<br><br>Watch the official trailer:</h4>
+
+                <br>
+
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/h5SZTR5dgb0" title="Debug by Daylight Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h3>► Puzzle & Trailer by <a href="https://zungaree.github.io/lazaro.github.io/" target="_blank" style="color:white;">@Zungaree</a><br>
+                    ► Level Design by <a href="https://ceejaysalonga.github.io/salongacd.github.io/" target="_blank" style="color:white;">@DaTortilla</a><br>
+                    ► Character Design by <a style="color:white;">@Potaro</a><br>
+                    ► Music Composed by <a style="color:white;">@tofu</a></h3>
+                
+                <br><br>
+
+                <h4 style="margin-right: 43%; font-size: 30px; text-align: left; font-weight:normal;">Download & try the game: <a href="https://drive.google.com/file/d/1U15V8x0nWxT9oXlV4sCXNwANXIuOgasx/view" target="_blank" class="btn"><i class="fa fa-download"></i> Download</a></h4>
+            </div>
+
+            <div style="margin-bottom: 15%;">
+                <img src="pictures/wip.jpg" class="bordered" style="width:600px; transform:rotate(-5deg); float:left" alt="Chess">
+
+                <div style="margin-left: 20%;">
+                    <h2 style="background-color:#ffaf1b; color:#210002; padding-left: 25%; font-size: 50px;">Game Prototypes</h2>
+                </div>
+
+                <br>
+
+                <h4 style="margin-left: 40%; font-size: 30px; font-weight:normal;">Whenever I'm bored, I decide to study how game development works.</h4>
+            </div>
+            
+            <center>
+                <h4 style="font-size: 30px; font-weight:normal;">Below are some of my unfinished projects:</h4>
+
+                <br>
+
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/u0TBPn-Tw3A" title="3D Platformer Test #1 [Unity]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/HfhmsIt7kl8" title="3D Platformer Test #2 [Unity]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/XkiqpOl2EcM" title="3D Platformer - Boss Fight Test [Unity]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/8o1T0SwaO-Y" title="Revolver Animation Test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </center>
+        </div>
+
+        <div class="content">
+            <center>
+                <hr> 
+                
+                <br>
+
+                <h4 style="font-size: 30px; font-weight:normal;">Visit my friends' websites:</h4>
+
+                <br>
+
+                <h3>
+                    Hans - <a style="color:white;">@tofu</a><br>
+                    Ceejay - <a href="https://ceejaysalonga.github.io/salongacd.github.io/" target="_blank" style="color:white;">@DaTortilla</a><br>
+                    Ron - <a href="https://zungaree.github.io/lazaro.github.io/" target="_blank" style="color:white;">@Zungaree</a><br>
+                    Zeus - <a style="color:white;">@Potaro</a><br>
+                </h3>
+
+                <br>
+
+                <hr> 
+            </center>
+
+            <br>
         </div>
         
         <footer>
-            <h3>&copy 2023 Manalang, Jeremy</h3>
+            <a href="https://www.youtube.com/@yaozerdev" target="_blank">
+                <img src="pictures/youtube.png" alt="YouTube Icon" class="socmed" style="width:42px;height:42px;">
+            </a>
+            
+            <br><br>
+
+            <h3>2024 &copy manalang, jeremy</h3>
         </footer>
     </div>
 </body>
